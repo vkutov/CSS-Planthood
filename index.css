@@ -61,7 +61,7 @@ header {
 
 .logo {
     grid-row: span 2;
-    background-color: #F6F6F4;
+    /* background-color: #F6F6F4; */
     background: url(/assets/logo-hand.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,7 +296,6 @@ footer {
     .footer-area {
         background: url(/assets/hand-above-plants.jpeg);
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: center;
         display: grid;
         grid-column: span 2;
@@ -368,21 +367,13 @@ footer {
     body {
         grid-template-columns: auto;
 
-        main>article.earlier>figure {
-            margin: 0rem 2rem;
+        main>article.earlier>figure>img {
+            height: 50%;
+            padding: 3rem 0rem;
 
-            >img {
-                height: 50%;
-                padding: 3rem 0rem;
-            }
         }
     }
 
-    footer,
-    header,
-    main {
-        grid-column: span 6;
-    }
 
     header {
         grid-template-rows: 2fr 1fr;
@@ -402,7 +393,7 @@ footer {
             height: 38px;
             opacity: 0;
             margin: 1rem 1rem 0 0;
-            z-index: 5;
+            z-index: 4;
         }
 
         input:checked {
@@ -411,7 +402,7 @@ footer {
             ~nav {
                 position: absolute;
                 top: 0;
-                display: block;
+                display: inline;
 
                 ul {
                     flex-direction: column;

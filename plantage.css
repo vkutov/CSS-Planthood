@@ -2,29 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-/* || GENERAL STYLES */
 
 
 :root {
-    --theme-green-color: #35846E;
-    --link-green-color: #055647;
-    --button-bg-color: #B93857;
     --background-margin-color: #FCF5FC;
     --background-content-color: #FFFFFF;
     --footer-background-color: #9E6D52;
+    --theme-green-color: #35846E;
+    --link-green-color: #055647;
+    --button-bg-color: #B93857;
+
 }
 
 body {
-    height: 100vh;
-    margin: 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     font-family: 'Maven Pro';
     background-color: var(--background-margin-color);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+
 }
 
-main,
 header,
+main,
 footer {
     grid-column: 2 / 6;
 }
@@ -43,15 +45,14 @@ h3 {
 }
 
 h4 {
-    font-family: 'Lato';
     margin-left: 1rem;
+    font-family: 'Lato';
     font-weight: 300;
     font-size: 16px;
 }
 
 .theme-button {
     background-color: var(--theme-green-color);
-    color: white;
     border-radius: 8px;
     font-size: 24px;
     font-family: 'Open Sans';
@@ -71,16 +72,12 @@ a {
     color: #1E1E1E;
 }
 
-/* || HEADER AND NAVIGATION */
 
 header {
     background-color: var(--background-content-color);
     margin-bottom: 3rem;
     height: 100%;
 
-    .burger {
-        display: none;
-    }
 
     nav {
         background-color: white;
@@ -91,7 +88,6 @@ header {
             display: flex;
             list-style-type: none;
             justify-content: space-around;
-            margin: 1rem 0;
 
             a {
                 text-decoration: none;
@@ -108,12 +104,9 @@ header {
         background-repeat: no-repeat;
         background-position: center;
         text-align: center;
-        align-content: center;
         padding: 3rem 0;
 
-        .header-logo {
-            align-content: center;
-        }
+
 
         h1 {
             font-size: 40px;
@@ -123,7 +116,6 @@ header {
     }
 }
 
-/* || MAIN CONTENT */
 
 main {
     background-color: var(--background-content-color);
@@ -169,18 +161,18 @@ main {
     .planned-plants,
     .planted-plants {
         h2 {
+            margin-top: 4rem;
+            margin-bottom: 3rem;
             font-size: 32px;
             font-weight: 600;
             text-align: center;
             font-family: 'Lato';
-            margin-top: 4rem;
-            margin-bottom: 3rem;
+
         }
 
         .cards {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
-            grid-column: span 12;
             gap: 2rem;
             margin-bottom: 3rem;
 
@@ -188,7 +180,6 @@ main {
                 display: grid;
                 grid-column: span 4;
                 align-items: center;
-                background-color: white;
                 box-shadow: 3px 4px 4px 0px #00000040;
 
                 .cucumber {
@@ -201,11 +192,11 @@ main {
                 }
 
                 figure {
+                    background-size: cover;
                     margin: 0;
                     grid-column: span 4;
                     text-align: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
+
 
                     img {
                         padding: 2rem 0;
@@ -214,9 +205,9 @@ main {
 
                 p,
                 .remove {
-                    grid-column-start: 4;
                     font-weight: 700;
                     margin-right: 1rem;
+                    grid-column-start: 4;
                 }
 
                 .remove {
@@ -233,17 +224,16 @@ main {
     }
 }
 
-/* || FOOTER */
 
 footer {
     padding-bottom: 5rem;
 
     .footer-images {
+        padding: 2rem;
         background-color: var(--footer-background-color);
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap: 1rem;
-        padding: 2rem;
 
         figure {
             grid-column: span 3;
@@ -259,11 +249,11 @@ footer {
     }
 
     h2 {
+        box-shadow: 0px 4px 4px 0px #03382F1C;
         font-family: 'Open Sans';
         font-size: 24px;
         font-weight: 400;
         text-align: center;
-        box-shadow: 0px 4px 4px 0px #03382F1C;
         padding-bottom: 2rem;
     }
 }
@@ -273,53 +263,46 @@ footer {
 
 @media (max-width: 600px) {
 
-    /* || GENERAL STYLES */
 
     body {
         display: flex;
         flex-direction: column;
     }
 
-    header,
-    main,
-    footer {
-        grid-column: span 6;
-    }
 
     .theme-button {
         width: 40%;
-        align-self: center;
         padding: 0.5rem 0;
         font-size: 16px;
-        font-family: 'Open Sans';
         font-weight: 400;
         margin: 0;
-    }
+        align-self: center;
 
-    p {
-        font-size: 10px;
-        font-family: 'Open Sans';
-    }
-
-    h3 {
-        font-size: 14px;
     }
 
     h4 {
         font-size: 10px;
     }
 
-    /* || HEADER AND NAVIGATION */
+    p {
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
 
     header {
-        grid-template-rows: 2fr 1fr;
         margin-bottom: 0;
+        grid-template-rows: 2fr 1fr;
+
 
         nav {
             display: none;
         }
 
-        .burger {
+        .burgir {
             display: flex;
             right: 0;
             margin: 0;
@@ -347,27 +330,9 @@ footer {
             opacity: 0;
             position: absolute;
             margin: 1rem 1rem 0 0;
-            z-index: 5;
-        }
-
-        input:checked {
-            z-index: 5;
-
-            ~nav {
-                display: block;
-                position: absolute;
-                top: 0;
-                width: 100%;
-                text-align: center;
-
-                ul {
-                    flex-direction: column;
-                }
-            }
         }
     }
 
-    /* || MAIN CONTENT */
 
     main {
         padding: 0 2rem;
@@ -412,13 +377,10 @@ footer {
                         display: none;
                     }
 
-                    figure {
-                        text-align: center;
-
-                        img {
-                            width: 50%;
-                        }
+                    img {
+                        width: 50%;
                     }
+
 
                     .trash-icon {
                         display: block;
@@ -438,18 +400,13 @@ footer {
                 font-size: 16px;
                 font-family: 'Open Sans';
                 font-weight: 700;
-                grid-column: 5 / 9;
+                grid-column: 7 / 9;
             }
         }
     }
 
-    /* || FOOTER */
 
     footer {
-        grid-template-columns: repeat(12, 1fr);
-        gap: 1rem;
-        align-items: self-end;
-        padding: 0;
 
         .footer-images {
             background-color: var(--footer-background-color);
@@ -459,11 +416,6 @@ footer {
 
             figure {
                 grid-column: span 6;
-
-                img {
-                    height: 100%;
-                    width: 100%;
-                }
 
                 .vertical-image {
                     aspect-ratio: 16 / 9;
