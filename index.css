@@ -487,8 +487,6 @@ footer {
                     }
 
                     figure:not(.trash-icon) {
-                        background-color: blue;
-
                         img {
                             width: 50%;
                         }
@@ -573,7 +571,6 @@ footer {
             font-size: 12px;
             margin-top: 1rem;
             margin-bottom: 0;
-
         }
     }
 }
