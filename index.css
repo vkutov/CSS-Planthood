@@ -15,7 +15,7 @@ body {
     font-family: 'Maven Pro';
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    background-color: var(--background-margin-color);
+    background-color: #FCF6FC;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     justify-items: center;
     grid-column: 2 / 6;
     grid-template-rows: 5fr 5fr 1fr;
-    background-color: var(--background-content-color);
+    background-color: #F6F6F4;
 
     >* {
         margin: 0;
@@ -61,6 +61,7 @@ header {
 
 .logo {
     grid-row: span 2;
+    background-color: #F6F6F4;
     background: url(/assets/logo-hand.jpeg);
     background-size: cover;
     background-repeat: no-repeat;

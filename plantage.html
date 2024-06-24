@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mina sidor</title>
+    <link rel="stylesheet" href="/plantage.css" />
+  </head>
+
+  <body>
+    <header>
+      <input class="burger" type="checkbox" />
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#planned">PLANER</a>
+          </li>
+          <li>
+            <a href="#history">HISTORIK</a>
+          </li>
+          <li>
+            <a href="#">TIPS</a>
+          </li>
+          <li>
+            <a href="/index.html">LOGGA UT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="header-image-area">
+        <figure class="burger">
+          <img src="/assets/burgir.svg" alt="Hamburger menu icon" />
+        </figure>
+
+        <figure class="header-logo">
+          <img src="/assets/Logo.svg" alt="Plant Logo" />
+        </figure>
+
+        <h1>Mina sidor</h1>
+      </section>
+    </header>
+
+    <main>
+      <h1>Lägg till ny plantering:</h1>
+
+      <form action="" method="dialog" class="add-plant">
+        <label for="name">Planta: </label>
+        <input type="text" name="name" id="name" />
+
+        <label for="date">Datum: </label>
+        <input type="date" name="date" id="date" />
+
+        <button class="theme-button">LÄGG TILL</button>
+      </form>
+
+      <section class="planned-plants" id="planned">
+        <h2>Dina planerade planteringar:</h2>
+
+        <section class="cards">
+          <article class="card">
+            <figure class="cucumber">
+              <img src="/assets/plant.svg" alt="Cucumber" />
+            </figure>
+            <h3>Gurka</h3>
+            <p>15 april 2024</p>
+            <h4>Rico Coolio</h4>
+            <figure class="trash-icon">
+              <img src="/assets/Vector (Stroke).svg" alt="Trash" />
+            </figure>
+            <button class="remove">TA BORT</button>
+          </article>
+        </section>
+      </section>
+
+      <section class="planted-plants" id="history">
+        <h2>Dina planterade planteringar:</h2>
+
+        <section class="cards">
+          <article class="card">
+            <figure class="cucumber">
+              <img src="/assets/plant.svg" alt="Cucumber" />
+            </figure>
+            <h3>Gurka</h3>
+            <p>15 april 2024</p>
+            <h4>Rico Coolio</h4>
+            <figure class="trash-icon">
+              <img src="/assets/Vector (Stroke).svg" alt="Trash" />
+            </figure>
+            <button class="remove">TA BORT</button>
+          </article>
+
+          <article class="card">
+            <figure class="cucumber">
+              <img src="/assets/plant.svg" alt="Cucumber" />
+            </figure>
+            <h3>Gurka</h3>
+            <p>15 april 2024</p>
+            <h4>Rico Coolio</h4>
+            <figure class="trash-icon">
+              <img src="/assets/Vector (Stroke).svg" alt="Trash" />
+            </figure>
+            <button class="remove">TA BORT</button>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-images">
+        <figure>
+          <img src="/assets/picking-fruits.jpeg" alt="Guy picking fruit" />
+        </figure>
+
+        <figure>
+          <img src="/assets/watering.jpeg" alt="Watering plants" class="vertical-image" />
+        </figure>
+
+        <figure>
+          <img src="/assets/vegetables.jpeg" alt="Collection of vegetables" />
+        </figure>
+
+        <figure>
+          <img src="/assets/girl.jpeg" alt="Girl in field" />
+        </figure>
+      </section>
+
+      <h2><a href="#">Till toppen av sidan</a></h2>
+    </footer>
+  </body>
+</html>
