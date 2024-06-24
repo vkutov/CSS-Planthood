@@ -436,10 +436,9 @@ footer {
         }
 
         .planted-plants {
+            grid-column: 1 / 13;
             margin-left: 1rem;
             margin-right: 1rem;
-            grid-column: 1 / 13;
-
 
             .border {
                 grid-column: 3 / 11;
@@ -452,8 +451,8 @@ footer {
             }
 
             .cards {
-                grid-template-columns: 1fr 1fr;
                 gap: 1rem;
+                grid-template-columns: 1fr 1fr;
 
                 article.card {
                     grid-column: span 1;
@@ -488,7 +487,7 @@ footer {
                     }
 
                     figure:not(.trash-icon) {
-                        text-align: center;
+                        background-color: blue;
 
                         img {
                             width: 50%;
