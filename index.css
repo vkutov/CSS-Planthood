@@ -516,7 +516,9 @@ footer {
             }
 
             figure {
-                margin: 0 2rem;
+                width: 60%;
+                aspect-ratio: 1;
+                align-self: center;
 
                 img {
                     padding: 3rem 4rem;

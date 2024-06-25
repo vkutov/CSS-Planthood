@@ -268,7 +268,6 @@ footer {
         font-weight: 400;
         margin: 0;
         align-self: center;
-
     }
 
     h4 {
@@ -357,7 +356,7 @@ footer {
             }
 
             .cards {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: repeat(2,1fr) ;
                 gap: 2rem;
 
                 .card {
