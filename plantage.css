@@ -34,11 +34,9 @@ footer {
 p {
     font-size: 16px;
     text-align: right;
-    font-family: 'Open Sans';
 }
 
 h3 {
-    font-family: 'Lato';
     margin-left: 1rem;
     font-size: 24px;
     font-weight: 600;
@@ -46,7 +44,6 @@ h3 {
 
 h4 {
     margin-left: 1rem;
-    font-family: 'Lato';
     font-weight: 300;
     font-size: 16px;
 }
@@ -55,7 +52,6 @@ h4 {
     background-color: var(--theme-green-color);
     border-radius: 8px;
     font-size: 24px;
-    font-family: 'Open Sans';
     font-weight: 700;
     border: thin;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -123,7 +119,6 @@ main {
 
     h1 {
         font-size: 32px;
-        font-family: 'Open Sans';
         font-weight: 400;
     }
 
@@ -136,7 +131,6 @@ main {
             display: block;
             grid-column: span 6;
             font-size: 20px;
-            font-family: 'Open Sans';
             font-weight: 400;
         }
 
@@ -166,7 +160,6 @@ main {
             font-size: 32px;
             font-weight: 600;
             text-align: center;
-            font-family: 'Lato';
 
         }
 
@@ -214,7 +207,6 @@ main {
                     background-color: var(--button-bg-color);
                     color: white;
                     font-size: 15px;
-                    font-family: 'Open Sans';
                     border-radius: 9px;
                     border: thin;
                     padding: 0.3rem;
@@ -250,7 +242,6 @@ footer {
 
     h2 {
         box-shadow: 0px 4px 4px 0px #03382F1C;
-        font-family: 'Open Sans';
         font-size: 24px;
         font-weight: 400;
         text-align: center;
@@ -362,7 +353,6 @@ footer {
 
             h2 {
                 font-size: 16px;
-                font-family: 'Open Sans';
                 margin: 3rem 0 2rem 0;
             }
 
@@ -398,7 +388,6 @@ footer {
 
             .theme-button {
                 font-size: 16px;
-                font-family: 'Open Sans';
                 font-weight: 700;
                 grid-column: 7 / 9;
             }

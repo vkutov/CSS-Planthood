@@ -61,7 +61,6 @@ header {
 
 .logo {
     grid-row: span 2;
-    /* background-color: #F6F6F4; */
     background: url(/assets/logo-hand.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +94,6 @@ main {
         border: thin;
         padding: 1rem;
         font-size: 24px;
-        font-family: 'Open Sans';
         font-weight: 600;
     }
 
@@ -138,7 +136,6 @@ main {
             }
 
             p {
-                font-family: 'Open Sans';
                 font-size: 16px;
                 font-weight: 400;
                 margin: 0;
@@ -205,7 +202,6 @@ main {
             font-size: 32px;
             font-weight: 600;
             text-align: center;
-            font-family: 'Lato';
             grid-column: span 12;
         }
 
@@ -230,7 +226,6 @@ main {
 
                 h3,
                 h4 {
-                    font-family: 'Lato';
                     margin-left: 1rem;
                 }
 
@@ -254,7 +249,6 @@ main {
                 p {
                     font-size: 16px;
                     text-align: right;
-                    font-family: 'Open Sans';
                 }
 
                 p,
@@ -271,7 +265,6 @@ main {
                     border: thin;
                     padding: 0.3rem;
                     font-size: 15px;
-                    font-family: 'Open Sans';
                 }
             }
         }
@@ -310,8 +303,7 @@ footer {
             h1 {
                 font-size: 64px;
                 font-weight: 500;
-                color: white;
-                font-family: 'Maven Pro';
+                color: rgb(242, 232, 232);
                 text-align: center;
                 align-content: center;
             }
@@ -356,7 +348,6 @@ footer {
         font-size: 24px;
         grid-column: span 2;
         background-color: rgb(244, 237, 237);
-        font-family: 'Open Sans';
         box-shadow: 0px 4px 4px 0px #03382F1C;
         padding-bottom: 2rem;
         font-style: normal;
@@ -446,7 +437,6 @@ footer {
 
             >h2 {
                 font-size: 16px;
-                font-family: 'Open Sans';
                 margin: 3rem 0 2rem 0;
             }
 
@@ -459,7 +449,6 @@ footer {
 
                     p {
                         font-size: 10px;
-                        font-family: 'Open Sans';
                     }
 
                     h3 {
@@ -497,7 +486,6 @@ footer {
             button.show-more {
                 grid-column: 5 / 9;
                 font-size: 16px;
-                font-family: 'Open Sans';
                 font-weight: 700;
             }
         }
