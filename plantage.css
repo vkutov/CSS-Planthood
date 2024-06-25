@@ -204,13 +204,13 @@ main {
                 }
 
                 p,
-                .remove {
+                .delete {
                     font-weight: 700;
                     margin-right: 1rem;
                     grid-column-start: 4;
                 }
 
-                .remove {
+                .delete {
                     background-color: var(--button-bg-color);
                     color: white;
                     font-size: 15px;

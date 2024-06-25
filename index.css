@@ -258,13 +258,13 @@ main {
                 }
 
                 p,
-                button.remove {
+                button.delete {
                     grid-column-start: 4;
                     font-weight: 700;
                     margin-right: 1rem;
                 }
 
-                button.remove {
+                button.delete {
                     background-color: var(--button-bg-color);
                     color: rgb(243, 240, 240);
                     border-radius: 9px;
@@ -470,7 +470,7 @@ footer {
                         font-size: 10px;
                     }
 
-                    button.remove {
+                    button.delete {
                         display: none;
                     }
 
